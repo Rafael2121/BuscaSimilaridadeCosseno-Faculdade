@@ -15,8 +15,9 @@ Existem outras importantes:
  - header_line : se o CSV tem uma linha de cabeçalho
  - text_column : qual a coluna que contem o texto no CSV
  - csv_path: endereço do CSV
- - similarity_base: parametro de similaridade aceitável para retorno
-----> "csv_path = "imdb.csv", text_column = 2, header_line=True, similarity_base = 0.2" <------
+ - similarity_base: parametro de similaridade aceitável para retorno.
+ 
+__init__> "csv_path = "imdb.csv", text_column = 2, header_line=True, similarity_base = 0.2" 
 
 Para executa-lo:
 ```
