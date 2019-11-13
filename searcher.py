@@ -18,11 +18,8 @@ class searcher(object):
 
     def run(self):
         text_list = self.get_text_list()
-        docs = []
-        for d in text_list[:500]:
-            docs.append(d)
         self.text_list = text_list
-        self.prepare_searcher(docs)
+        self.prepare_searcher(text_list)
         self.main_program()
     
     def main_program(self):
